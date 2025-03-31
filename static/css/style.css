@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffce1b;
+
+}
+
+/*
+ * header area with menus
+ */
+
+header {
+  background-color: gradient(right,blue,white);
+  height: 35px;
+  width: 100%;
+  /*opacity: 0.7;*/
+  margin-bottom: 20px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+margin-left:12px;
+
+}
+
+header h1.logo {
+  margin: 0;
+  font-size: 1.5em;
+  color: #e0fbfc;
+  text-transform: uppercase;
+  float: left;
+  margin-left:-35px;
+  margin-top: 5px;
+
+}
+
+header h1.logo:hover {
+  color: rgb(255, 217, 0);
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* menus on header */
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+
+.menu li {
+  display: inline;
+}
+
+
+.menu li + li {
+  margin-left: 50px;
+}
+
+/*menus colour*/
+.menu li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* mouse cursor over link */
+.menu li a:hover {
+  color: rgb(255, 217, 0);
+}
+/*
+.menu li:first-child a {
+  background-color: #d83810;
+}*/
+
+
+
+

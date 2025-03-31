@@ -1,0 +1,83 @@
+{%extends "layout.html"%}
+{%block content%}
+<style>
+    h2 {color: rgb(224, 255, 253);}
+    
+
+/* CSS */
+.button-a {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.button-a:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-a {
+    padding: 10px 30px;
+  }
+}
+   /* a[href] {color: rgb(224, 255, 253);}
+
+    a:hover {color: rgb(255, 217, 0);}*/
+
+    
+    body {
+        background-image: url('/static/backgroundimage.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+        
+        
+</style>
+
+
+<div class="about">
+  <center><h1>Welcome to Our Human Disease Predictor Site</h1>
+  <h2>Our trained Machine Learning model can predict whether a person is suffering from a disease or not on the basis of details provided to it.<h2>
+</center>
+  
+
+    <h2><br/>This site offers the following disease prediction:<br/>
+    <ul>
+        <a href="{{ url_for('diabetes') }}"><button class="button-a" role="button">Diabetes</button></a>
+        <a href="{{ url_for('parkinsons') }}"><button class="button-a" role="button">Parkinsons</button></a>
+        <a href="{{ url_for('heartdisease') }}"><button class="button-a" role="button">Heart Disease</button></a>
+    </ul>
+  </h2>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <h3><marquee behavior="alternate" scrollamount="10" style= "background-color: #1f15a3; position:absolute;bottom: 0%; left: 0%;">Note: This site is just a dummy project. Please don't take any disease prediction seriously. We don't take any responsibility for wrong predictions.</marquee></h3>
+
+</div>
+{%endblock%}

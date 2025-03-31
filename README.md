@@ -72,18 +72,21 @@ To use this application on another computer, follow these steps:
 Below are example screenshots of the application in action:
 
 1. **Home Page**  
-   *(Insert Image Here)*  
+  ![HomePage](https://github.com/PukhrajDewangan22/disease_predictor/blob/main/home.jpg)
 
-2. **Prediction Results**  
-   *(Insert Image Here)*  
 
-To add images, place your screenshots in the project directory (e.g., `images/`) and use markdown to reference them:
-```markdown
-![Home Page](images/home_page.png)
-![Prediction Results](images/prediction_results.png)
-```
+2.  **Dibaties Page**  
+  ![Dibaties Page](https://github.com/PukhrajDewangan22/disease_predictor/blob/main/dibaties.jpg)  
+  
+3.  **Dibaties Prediction**  
+  ![Dibaties Prediction](https://github.com/PukhrajDewangan22/disease_predictor/blob/main/dibatiesfill.jpg)  
+  
+4. **Parkinson Prediction**  
+  ![Parkinson Prediction](https://github.com/PukhrajDewangan22/disease_predictor/blob/main/parkinson.jpg)  
+5.   **Heart Prediction**  
+  ![Heart Prediction](https://github.com/PukhrajDewangan22/disease_predictor/blob/main/heart.jpg)  
 
----
+
 
 ## Technologies Used
 - Python
